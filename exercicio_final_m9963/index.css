@@ -1,0 +1,64 @@
+.row{ display: table; width:100%; }
+.col{ display: table-cell; vertical-align: top;}
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%;}
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width:83.33%;  }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+:root{
+
+    --cor2: rgb(245, 39, 39);
+    --cor3: rgb(255, 255, 255);
+    --cor4: rgb(0, 0, 0);
+}
+
+body{
+    background-color: var(--cor4);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--cor3);
+}
+
+header{
+    background-color: var(--cor3);
+    color: var(--cor4);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 350%;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.anime {
+    display: inline-block;
+    font-size: 200%;
+}
+
+.anime:not(:first-child) {
+    width: 100%;
+}
+
+@keyframes color-change {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: red; }
+}
+
+.anime {
+    animation: color-change 3s infinite;
+}
