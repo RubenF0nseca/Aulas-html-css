@@ -1,0 +1,35 @@
+
+.cor_sec_3_1 {
+  background-color: var(--cor9);
+  text-align: right;
+  padding-top: 10%;
+}
+.cor_sec_3_2 {
+  background-color: var(--cor10);
+  text-align: left;
+  
+}
+.sec_3 h1{
+  text-align: right;
+  
+}  .sec_3 {
+  background: linear-gradient(
+    to right,
+    #333333 0%,
+    #333333 50%,
+    #82c0cc 50%,
+    #82c0cc 100%      
+  )
+  
+}
+.cor_sec_3_1 {
+  text-align: right;
+}
+.cor_sec_3_2 {
+  margin-top: 40%;
+  
+}
+.sec_3 h1{
+  text-align: right;
+  
+}

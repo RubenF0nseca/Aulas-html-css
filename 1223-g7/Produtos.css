@@ -1,0 +1,185 @@
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Lobster", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: red;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pizza-header {
+  margin-left: 12px;
+}
+
+.navbar {
+  background-color: red;
+  position: relative;
+  z-index: 999;
+}
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: red;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  color: white;
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+  right: 0;
+}
+
+.navbar ul ul li {
+  display: block;
+}
+
+.navbar li:hover ul {
+  display: block;
+}
+
+.navbar ul ul li a:hover {
+  background-color: #555;
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+body {
+  background-image: url('pizza_images/fundo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(221, 184, 184, 0.5);
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: rgba(221, 184, 184, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.col {
+  flex-basis: calc(25% - 20px);
+  margin-bottom: 20px;
+  background-color: rgba(238, 211, 211, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #ff4500;
+}
+
+
+.col:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+.pizza {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.pizza-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pizza-type {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.pizza-price {
+  color: #ff4500;
+}
+/*----------------------------------------------------------*/
+
+.footer .container {
+  background-color: red;
+}
+
+footer {
+  background-color: red;
+  color: #FFF;
+  padding: 1px 10px 1px 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width:991px){
+  
+  .col {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+    background-color: rgba(238, 211, 211, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+}
+/*mobile*/
+@media only screen and (max-width: 767px){
+  .col {
+    flex-basis: calc(100% - 20px);
+    margin-bottom: 20px;
+    background-color: rgba(238, 211, 211, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+}

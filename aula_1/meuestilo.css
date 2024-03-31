@@ -1,0 +1,16 @@
+/* CSS */
+/* podem ser externo, interno, em linha */
+/* Elementos Formatáveis: tags, class (.), id(#) */
+
+
+.teste {
+    background-color: yellow;
+    color: blue;
+    
+}
+
+#teste2 {
+    background-color:red;
+    color: white;
+    
+}

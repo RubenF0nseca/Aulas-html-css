@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Titulo</title>
+</head>
+<body>
+Comentários em HTML 
+<!-- Comentário aqui -->
+
+Titulos: 
+<h1 id="titulo">Titulo</h1>
+<h2>Titulo</h2>
+<h3>Titulo</h3>
+<h4>Titulo</h4>
+<h5>Titulo</h5>
+<h6>Titulo</h6>
+
+Textos: 
+<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. 
+	<b>Ut enim ad minim veniam,</b>
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.<br> 
+	<i>Duis aute irure dolor</i> in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, <u>sunt in culpa qui officia</u> deserunt mollit anim id est laborum.
+</p>
+<p>
+	<b><i><u>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.</u></i></b> 
+	Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo	consequat.<br> 
+	Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+
+<br><br>
+
+Listas: 
+
+<!-- Ordenadas e Desordenadas -->
+<ol>
+	<li>Ponto 1</li>
+	<li>Ponto 2</li>
+	<li>Ponto 3</li>
+</ol>
+
+<ul>
+	<li>Ponto 1</li>
+	<li>Ponto 2</li>
+	<li>Ponto 3</li>
+</ul>
+
+<!-- imagens -->
+<img src="img/teste.jpg" width="100" height="100">
+
+<br>
+<!-- Video e video externo -->
+<video width="300" height="240" controls>
+	<source src="img/Poledu-Pitch.mp4" type="video/mp4">
+</video>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3znZeqOs6eo?si=mgSux0akSDHVaHno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<!-- Mapas -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1567316.0359470297!2d-10.164149485199772!3d39.89295735432499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd194622e5ad46d1%3A0x123b3f86b5ed915a!2sATEC%20-%20Training%20Academy%20-%20Palmela!5e0!3m2!1sen!2spt!4v1705080454861!5m2!1sen!2spt" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<!-- ------------------------------- -->
+Elementos estruturais para conteúdos:
+
+<header>Cabeçalho</header>
+<nav>barra navegação</nav>
+<main>conteudos</main>
+<footer>rodape</footer>
+
+<section>Secção</section>
+
+<div>Div conteudo</div>
+
+----- Tabelas -----
+<table border="50">
+	<tr>
+		<td>Conteudos</td>
+		<td>Conteudos</td>
+		<td>Conteudos</td>
+		<td>Conteudos</td>
+	</tr>
+	<tr>
+		<td colspan="2">Conteudos</td>
+		<td colspan="2">Conteudos</td>
+	</tr>
+	<tr>
+		<td>Conteudos</td>
+		<td>Conteudos</td>
+		<td>Conteudos</td>
+		<td>Conteudos</td>
+	</tr>
+</table>
+<br><br><br>
+
+<!-- Links internos ou externos-->
+<a href="nomedoficheiro.html">Click aqui</a>
+<br>
+<a href="https://www.sapo.pt" target="_blank">Ver Sapo</a>
+<br>
+<a href="#titulo"><img src="img/teste.jpg" width="100" height="100"></a>
+
+<br><br><br>
+
+<!-- Formulários -->
+<form method="post">
+	<label for="Nome">Nome:</label>
+	<input type="text" name="Nome" placeholder="Legendar">
+	<label for="Senha">Senha:</label>
+	<input type="password" name="Senha" placeholder="Senha">
+
+	<!-- Alguns tipos de inputs -->
+	<label>Desportos Praticados:</label>
+	<label>Natacao</label><input type="checkbox" name="desporto" value="natacao">
+	<label>Btt</label><input type="checkbox" name="desporto" value="btt">
+	<label>Tenis</label><input type="checkbox" name="desporto" value="tenis">
+	<label>Basket</label><input type="checkbox" name="desporto" value="basket">
+
+	<!-- -->
+	<label>Qual melhor clube</label>
+	<label>SLB</label><input type="radio" name="clube" value="slb">
+	<label>SCP</label><input type="radio" name="clube" value="scp">
+	<label>FCP</label><input type="radio" name="clube" value="fcp">
+
+	<!--  -->
+	<label>Data Nascimento</label>
+	<input type="date" name="bd" placeholder="Data nascimento">
+
+	<input type="datetime-local" name="bd" placeholder="Data">
+
+	<input type="month" name="mes">
+	<input type="week" name="semana">
+	<input type="time" name="horas">
+
+
+	<input type="submit" name="enviar" value="Enviar">
+
+</form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+/* CSS */
+/* Podem ser externo, interno, em linha */
+/* atributo: valor; */
+/* Elementos Formatáveis: tags, class (.), id (#)*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+	--cor1: rgb(11,19,43);
+	--cor2: rgb(28,37,65);
+	--cor3: rgb(58,80,107);
+	--cor4: rgb(235,94,85);
+	--cor5: rgb(216,30,91);
+	--cor6: rgb(255,255,255);
+	--cor7: rgb(0,0,0);
+	--teste: 163;
+	--teste1: hsla(var(--teste),100%,33%,0.5);
+}
+
+/* Matriz row, col, col-x */
+
+.row{ display: table; width:100%; }
+.col{ display: table-cell; vertical-align: top;}
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%;}
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width:83.33%;  }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+.txt-right{ text-align: right;}
+.txt-center{ text-align: center; }
+.txt-left{ text-align: left; }
+
+.logotipo{
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5rem;
+}
+body{ margin:0; padding:0; }
+
+/*Header & footer*/
+header, footer{
+	background-color: var(--cor1);
+	color: var(--cor6);
+	padding: 1% 2%;
+}
+/* formatação circunstancial */
+header a{
+	color: var(--cor6);
+	font-size: 2rem;
+}
+header a:hover{
+	color: var(--cor4);
+}
+
+header ul li{ 
+	display: inline; /*  list-style-type: none; */
+	margin-right: 5%;
+}
+header ul li:last-child{
+	margin-right: 0%;
+}
+/* nav */
+nav{
+	background-color: var(--cor1);
+	color: var(--cor6);
+	margin:0.5% 0%;
+	padding: 0.5%;
+}
+nav ul li{ display:inline; margin-right: 5%; }
+nav ul li:last-child{ margin-right: 0%; }
+
+nav a{
+	color: var(--cor6);
+	text-decoration: none;
+}
+nav a:hover{
+	color: var(--cor4);
+}
+
+/* main */
+main{
+	padding: 1% 2%;
+}
+
+/*main section:nth-child(even){
+	background-color: var(--cor5);
+	margin-bottom:1%;
+}*/
+@keyframes anim-teste{
+	from{
+		background-color: yellow;
+	}
+	to{
+		background-color: red;
+	}
+}
+@keyframes anim-teste1{
+	0%{ 
+		background-color: red;
+	}
+	25%{ 
+		background-color: blue;
+	}
+	50%{ 
+		background-color: yellow;
+	}
+	75%{ 
+		background-color: pink;
+	}
+	100%{ 
+		background-color: red;
+	}
+}
+.cta{
+	
+	margin:5%;
+	padding: 5%;
+
+}
+.cta:hover{
+	animation-name: anim-teste1;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

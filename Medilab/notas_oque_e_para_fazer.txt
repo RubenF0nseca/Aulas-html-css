@@ -1,0 +1,23 @@
+
+
+
+
+
+Medicos: 
+Acrescentar 2 medicos (Joana Maria de clinica geral e Joao Mario de cardiologia) estes dois não tem twitter
+
+Acrescentar 2 faqs
+
+Acrescentar 2 comentários o do Joaquim e da Joaquina que sao ambos doentes
+
+A galeria vai passar a apresentar 12 fotografias 
+
+
+
+
+Devolver na tarefa o ficheiro index.html com o teu nome
+~
+
+
+-------------------------------
+linha 1063 a meter laranja.
