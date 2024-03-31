@@ -1,0 +1,42 @@
+Instructions
+Boa Tarde,
+
+Somos a GAMEon, empresa especializada na venda de jogos multiplataforma.
+
+Pretendemos receber maquetes funcionais de propostas responsivas para o nosso novo website.
+Temos largo leque de utilizadores, com uma incidência 55% mobile, 15% tablet e 30% desktop, pelo que o novo site deverá contemplar todo o espectro de dispositivos.
+
+O site deverá contemplar um menu de 5 elementos (Home, Sobre, Categorias, Produtos, Contactos).
+O menu em mobile deverá ser transformado em menu de barras.
+
+Homepage:
+Logotipo + Redes sociais + Acesso conta (+ barras em telemovel)
+Barra de menus (Disponivel em desktop e tablet)
+
+Secção 1 - Uma região tipo banner, onde deve apresentar GAME ON em letras grandes centradas, idealmente em duas linhas ocupando a palavra ON a mesma largura da palavra GAME.
+(Extra - O ON poderia ser animado com uma variação constante de cores)
+
+Secção 2 - Area de CTA, "Let's Game On - Register Here" com botão que liga á página de registo.
+
+Secção 3 - 3 Quadrados de cores diferentes, com titulos grandes de 3 categorias (PS5, Nintendo, Pc) Casa item leva à página de montra de produtos.
+
+Secção 4 - 8 Produtos (foto, nome, preço, botão liga a pagina produto), cada produto leva à pagina ficha de produto.
+
+Secção 5 - Contactos - com mapa localização e formulário de contacto.
+
+Sobre:
+Apresenta o banner game on animado ou nao a esquerda e á direita texto de apresentação lorem. Em mobile devera ser apresentado verticalmente (banner seguido de texto)
+
+Categorias:
+1 secção com 8 categorias em quadrados (semelhantes aos usados na home), em desktop mostramos 2linhas de 4,  tablet 4 linhas de 2 telemovel mostramos a unidade.
+
+Produtos: 
+Apresenta menu das categorias, e montra de produtos com 16 itens 4x4 desktop, 8x2 tablet e apenas 8 itens em telemovel
+Cada produto leva a pagina ficha de produto.
+
+Ficha de produto:
+Mostra foto a esquerda, preco, nome, descricao e botao a direita.
+
+Para entrega, pasta zipada do projeto com o o vosso nome.
+
+PS: Aceita-se temas diferentes, respeitando a estrutura e comportamentos pedidos.
