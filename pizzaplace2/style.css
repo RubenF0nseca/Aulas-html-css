@@ -1,0 +1,386 @@
+
+
+.social_media2{
+  display: none;
+  
+}
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  font-family: "Lobster", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('pizza_images/fundo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: red;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pizza-header {
+  margin-left: 12px;
+}
+
+.navbar {
+  background-color: red;
+  position: relative;
+  z-index: 999;
+}
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: red;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  color: white;
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+  right: 0;
+}
+
+.navbar ul ul li {
+  display: block;
+}
+
+.navbar li:hover ul {
+  display: block;
+}
+
+.navbar ul ul li a:hover {
+  background-color: #555;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/*----------------------------------------------------------*/
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  margin-left: 0px;
+}
+
+.carousel-item {
+  padding-left: 10px;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+}
+
+
+.prev-btn {
+  left: 10px;
+}
+
+
+.next-btn {
+  right: 10px;
+}
+
+/*----------------------------------------------------------*/
+
+.promoZone h1#Promoções {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-promo-main {
+  margin: 12px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+
+.promo-image {
+  display: flex;
+}
+
+.promo-img {
+  width: 50%;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+.pizza-car {
+  border: 3px solid black;
+}
+
+.nome-preço-car {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+}
+
+.nome-car {
+  background-color: lightgray;
+  flex: 1;
+  text-align: center;
+}
+
+.preço-car-botao {
+  background-color: orange;
+  flex: 1;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  border: none;
+}
+
+.visitarMain {
+  display: flex;
+  align-items: center;
+}
+
+.visitarDir {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.visitarEsq {
+  width: 60%;
+}
+
+.lojasLoc {
+  width: 100%;
+  height: auto;
+}
+
+.lojasConf {
+  position: relative;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  width: 25%;
+  padding: 5px 5px;
+  font-size: 300%;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+
+
+/*----------------------------------------------------------*/
+
+.container-3-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.column1, .column2, .column3 {
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  height: 300px;
+  border: 1px solid #000;
+  background-color: rgb(220, 172, 243);
+  box-sizing: border-box;
+  margin-left: 12px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.column1 h1, .column2 h1 {
+  position: relative;
+  justify-content: center;
+  transform: translateY(-50%);
+  align-items: center;
+  margin: auto;
+  top: 50%;
+}
+
+.column3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.column3 form div {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.column3 form div label {
+  min-width: 100px;
+  margin-right: -15px;
+}
+
+.column3 form div input {
+  width: 200px;
+}
+
+.column3 form div {
+  margin-bottom: 10px;
+}
+
+.column3 form button {
+  margin-top: 10px;
+}
+
+.column3 input {
+  align-self: flex-end;
+}
+
+/*----------------------------------------------------------*/
+
+.submit-Form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  width: 25%;
+  padding: 5px 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/*----------------------------------------------------------*/
+
+.footer .container {
+  background-color: red;
+}
+
+footer {
+  background-color: red;
+  color: #FFF;
+  padding: 1px 10px 1px 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+/*De aqui para baixo é meu Vladimiro*/
+
+.nova_loja{
+  text-align: center;
+}
+
+
+.subs{
+  width: 600px;
+  height: 300px;
+  border: 1px solid #000;
+  background-color: red;
+  box-sizing: border-box;
+  text-align: center;
+}
+.visitar2{
+  display: none;
+}
+.menu_mobile{
+  display: none;
+}
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .social_media{display: none;}
+  .social_media2{display: flex;}
+  .column1, .column2, .column3{width: calc(100% - 100px);}
+  .visitarDir {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;}
+  .visitarEsq {
+    width: 100%;}
+  .lojasLoc{
+    display: none;}
+  .visitar2{
+      display: flex;
+    }
+  .lojasLoc2{
+    width: 600px;
+    height: auto;}
+  .menu_desk{
+      display: none;}
+  .menu_mobile{
+    display: flex;
+  }
+}
+/*mobile*/
+@media only screen and (max-width: 767px){
+  .social_media{display: none;}
+  .social_media2{display: flex;}
+  .column1, .column2, .column3{width: calc(100% - 100px);}
+  .visitarDir {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;}
+    .visitarEsq {
+      width: 100%;}
+  .lojasLoc{
+        display: none;}
+  .visitar2{
+        display: flex;}
+  .lojasLoc2{
+    width: 600px;
+    height: auto;}
+  .menu_desk{
+      display: none;}
+  .menu_mobile{
+    display: flex;
+  }
+}
+
