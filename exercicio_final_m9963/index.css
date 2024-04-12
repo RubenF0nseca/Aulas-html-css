@@ -29,10 +29,33 @@ body{
 }
 
 header{
-    background-color: var(--cor3);
-    color: var(--cor4);
-    padding: 10px 0;
+    padding: 40px 0;
     text-align: center;
+}
+.nav_menu{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 9999;
+  }
+.nav_menu ul{
+    margin: 0;
+    padding: 1.5%;    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.nav_menu a{
+    padding-left: 40px;
+    font-size: 170%;
+}
+.nav_menu li{
+    display: inline-block;
+}
+.nav_menu li a{
+    text-decoration: none;
+    color: var(--cor3);
 }
 
 .banner h1 {
@@ -62,3 +85,52 @@ header{
 .anime {
     animation: color-change 3s infinite;
 }
+
+/* Estilos para a secção CTA */
+.cta-section {
+  
+    text-align: center;
+    padding: 20px;
+    color: #fff; /* Texto branco */
+  }
+  
+  .cta-section h2 {
+    font-size: 24px; /* Tamanho grande para o título */
+    margin-bottom: 10px;
+  }
+  
+  .cta-section p {
+    font-size: 16px; /* Tamanho moderado para a descrição */
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Cor verde para o botão, chamativa */
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-size: 18px;
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #45a049; /* Cor um pouco mais escura ao passar o rato */
+  }
+
+/* Estilos para a secção 3 (ps5,nitendo,pc */
+.ps5_button {
+    display: inline-block;
+    background-color: red; /* Cor verde para o botão, chamativa */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* Remove sublinhado dos links */
+    font-size: 18px;
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s;
+  }
+  
+  .ps5_button:hover {
+    background-color: rgb(110, 3, 3); /* Cor um pouco mais escura ao passar o rato */
+  }
