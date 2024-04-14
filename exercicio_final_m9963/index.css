@@ -21,98 +21,99 @@
 }
 
 body{
-    background-color: var(--cor4);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: var(--cor3);
+    background-color: var(--cor4); /* Cor de fundo */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Margem zero */
+    padding: 0; /* Espaçamento interno */
+    color: var(--cor3); /* Cor do texto */
 }
 
 header{
-    padding: 40px 0;
-    text-align: center;
+    padding: 40px 0; /* Espaçamento interno */
+    text-align: center; /* Alinhamento centralizado */
 }
 .nav_menu{
-    position: fixed;
-    width: 100%;
-    top: 0%;
-    z-index: 9999;
+    position: fixed; /* Para que o menu fique fixo */
+    width: 100%; /* Largura total */
+    top: 0%; /* Para que o menu fique no topo */
+    z-index: 9999; /* Para que o menu fique sempre por cima */
   }
 .nav_menu ul{
-    margin: 0;
-    padding: 1.5%;    
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+    margin: 0; /* Margem zero */
+    padding: 1.5%; /* Espaçamento interno */
+    list-style: none; /* Remove marcadores */
+    display: flex; /* Para que os elementos fiquem ao lado um do outro */
+    justify-content: center; /* Alinhamento centralizado */
+    list-style-type: none; /* Remove marcadores */
 }
 .nav_menu a{
-    padding-left: 40px;
-    font-size: 170%;
+    padding-left: 40px; /* Espaçamento interno */
+    font-size: 170%; /* Tamanho da fonte */
 }
 .nav_menu li{
-    display: inline-block;
+    display: inline-block; /* Para que os elementos fiquem ao lado um do outro */
 }
 .nav_menu li a{
-    text-decoration: none;
-    color: var(--cor3);
+    text-decoration: none; /* Remove sublinhado do menu */
+    color: var(--cor3); 
 }
 
 .banner h1 {
-    font-size: 350%;
-    font-weight: bold;
-    text-align: center;
-    white-space: nowrap;
+    font-size: 350%; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-align: center; /* Alinhamento centralizado */
+    white-space: nowrap; /* Para que o texto não quebre */
 }
 
 .anime {
-    display: inline-block;
-    font-size: 200%;
+    display: inline-block; /* Para que os elementos fiquem ao lado um do outro */
+    font-size: 200%; /* Tamanho da fonte */
 }
 
 .anime:not(:first-child) {
-    width: 100%;
+    width: 100%; /* Largura total */
 }
 
 @keyframes color-change {
-    0% { color: red; }
-    25% { color: blue; }
-    50% { color: green; }
-    75% { color: yellow; }
-    100% { color: red; }
+    0% { color: red; } /* Cor inicial */
+    25% { color: blue; } /* Cor aos 25% */
+    50% { color: green; } /* Cor aos 50% */
+    75% { color: yellow; } /* Cor aos 75% */
+    100% { color: red; } /* Cor final */
 }
 
 .anime {
-    animation: color-change 3s infinite;
+    animation: color-change 3s infinite; /* 3 segundos */
 }
 
 /* Estilos para a secção CTA */
-.cta-section {
-  
-    text-align: center;
-    padding: 20px;
+.cta-section {  
+    text-align: center; /* Alinhamento centralizado */
+    padding: 20px; /* Espaçamento interno */
     color: #fff; /* Texto branco */
+    padding-left: 20%; /* Espaçamento laterais */
+    padding-right: 20%; /* Espaçamento laterais */
   }
   
   .cta-section h2 {
     font-size: 24px; /* Tamanho grande para o título */
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Espaçamento inferior */
   }
   
   .cta-section p {
     font-size: 16px; /* Tamanho moderado para a descrição */
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Espaçamento inferior */
   }
   
   .cta-button {
-    display: inline-block;
+    display: inline-block; /* Para que o botão fique ao lado do outro */
     background-color: #4CAF50; /* Cor verde para o botão, chamativa */
-    color: black;
-    padding: 10px 20px;
+    color: black; /* Texto preto */
+    padding: 10px 20px; /* Espaçamento interno */
     text-decoration: none; /* Remove sublinhado dos links */
-    font-size: 18px;
+    font-size: 18px; /* Tamanho da fonte */
     border-radius: 5px; /* Bordas arredondadas */
-    transition: background-color 0.3s;
+    transition: background-color 0.3s; /* Efeito de transição */
   }
   
   .cta-button:hover {
@@ -130,10 +131,10 @@ header{
 }
 
 .sec_3 {
-  padding: 0%;
-  padding-left: 20%;
-  padding-right: 20%;
-  margin-top: 1%;
+  padding: 0%; /* Espaçamento interno */
+  padding-left: 20%; /* Espaçamento laterais */
+  padding-right: 20%; /* Espaçamento laterais */
+  margin-top: 1%; /* Espaçamento superior */
 }
 /* botao para ps5 */
 .box_button {
