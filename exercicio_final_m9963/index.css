@@ -120,17 +120,99 @@ header{
   }
 
 /* Estilos para a secção 3 (ps5,nitendo,pc */
-.ps5_button {
-    display: inline-block;
-    background-color: red; /* Cor verde para o botão, chamativa */
-    color: white;
-    padding: 10px 20px;
+
+  /* Fontes */
+  @font-face {
+    font-family: 'Font_ps5';
+    src: url('Fonts/ps-font/PsBold-2Oy2w.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sec_3 {
+  padding: 0%;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 1%;
+}
+/* botao para ps5 */
+.box_button {
+    display: inline-block; /* Para que o botão fique ao lado do outro */
+    background-color: blue; /*para o botão, convem ser chamativa */
+    color: white; /* Texto branco */
+    width: 67%; /* Largura do botão */
+    /* height: 30%; /* Altura do botão */
+    padding: 20% 14%; /* Espaçamento interno */
     text-decoration: none; /* Remove sublinhado dos links */
-    font-size: 18px;
+    font-size: 18px; /* Tamanho da fonte */
     border-radius: 5px; /* Bordas arredondadas */
-    transition: background-color 0.3s;
+    transition: background-color 0.3s; /* Efeito de transição */
+    font-family: 'Font_ps5', sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
+    text-align: center; /* Alinhamento do texto */
+    border: 1px solid #000; /* Borda preta */
+    cursor: pointer; /* Cursor ao passar o rato */
+    outline: none; /* Remove a borda ao clicar */
   }
   
-  .ps5_button:hover {
-    background-color: rgb(110, 3, 3); /* Cor um pouco mais escura ao passar o rato */
+  .box_button:hover {
+    background-color: rgb(11, 25, 80); /* Cor um pouco mais escura ao passar o rato */
   }
+  /* botao para nitendo */
+  /* Fontes */
+  @font-face {
+    font-family: 'nintendo_font';
+    src: url('Fonts/ro-spritendo-font/RoSpritendoSemiboldBeta-vmVwZ.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.box_button_nin {
+  display: inline-block; /* Para que o botão fique ao lado do outro */
+  background-color: red; /*para o botão, convem ser chamativa */
+  color: white; /* Texto branco */
+  width: 67%; /* Largura do botão */
+  /* height: 30%; /* Altura do botão */
+  padding: 20% 14%; /* Espaçamento interno */
+  text-decoration: none; /* Remove sublinhado dos links */
+  font-size: 18px; /* Tamanho da fonte */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s; /* Efeito de transição */
+  font-family: 'nintendo_font', sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
+  text-align: center; /* Alinhamento do texto */
+  border: 1px solid #000; /* Borda preta */
+  cursor: pointer; /* Cursor ao passar o rato */
+  outline: none; /* Remove a borda ao clicar */
+}
+
+.box_button_nin:hover {
+  background-color: rgb(110, 3, 3); /* Cor um pouco mais escura ao passar o rato */
+}
+  /* botao para pc */
+  /* Fontes */
+  @font-face {
+    font-family: 'pc_font';
+    src: url('Fonts/pc-senior-font/PcSeniorRegular-OEnd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.box_button_pc {
+  display: inline-block; /* Para que o botão fique ao lado do outro */
+  background-color: rgb(209, 164, 2); /*para o botão, convem ser chamativa */
+  color: white; /* Texto branco */
+  width: 67%; /* Largura do botão */
+  /* height: 30%; /* Altura do botão */
+  padding: 20% 14%; /* Espaçamento interno */
+  text-decoration: none; /* Remove sublinhado dos links */
+  font-size: 18px; /* Tamanho da fonte */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s; /* Efeito de transição */
+  font-family: 'pc_font', sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
+  text-align: center; /* Alinhamento do texto */
+  border: 1px solid #000; /* Borda preta */
+  cursor: pointer; /* Cursor ao passar o rato */
+  outline: none; /* Remove a borda ao clicar */
+}
+
+.box_button_pc:hover {
+  background-color: brown; /* Cor um pouco mais escura ao passar o rato */
+}
+
