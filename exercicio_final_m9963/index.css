@@ -37,6 +37,7 @@ header{
     width: 100%; /* Largura total */
     top: 0%; /* Para que o menu fique no topo */
     z-index: 9999; /* Para que o menu fique sempre por cima */
+    background-color: black;
   }
 .nav_menu ul{
     margin: 0; /* Margem zero */
@@ -110,7 +111,7 @@ header{
   .cta-button {
     display: flex; /* Para que o botão fique ao lado do outro */
     justify-content: left; /* Alinhamento centralizado */
-    background-color: #4CAF50; /* Cor verde para o botão, chamativa */
+    background-color: red; /* Cor verde para o botão, chamativa */
     color: black; /* Texto preto */
     padding: 10px 80px; /* Espaçamento interno */
     height: 30%; /* Altura do botão */
