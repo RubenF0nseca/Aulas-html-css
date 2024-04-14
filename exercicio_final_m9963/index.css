@@ -225,4 +225,18 @@ header{
 .box_button_pc:hover {
   background-color: brown; /* Cor um pouco mais escura ao passar o rato */
 }
+/* Estilos para a secção 4 (8 produtos) */
 
+.container_games{
+    display: flex; /* Para que os elementos fiquem ao lado um do outro */
+    justify-content: center; /* Alinhamento centralizado */
+    padding-left: 20%; /* Espaçamento laterais */
+    padding-right: 21%; /* Espaçamento laterais */
+    margin-top: 2%; /* Espaçamento superior */
+    color: #000; /* Texto preto */
+    text-align: center; /* Alinhamento centralizado */
+}
+
+.games_8{
+  background-color: white; /* Cor de fundo */
+}
