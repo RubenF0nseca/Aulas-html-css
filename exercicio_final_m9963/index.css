@@ -60,10 +60,11 @@ header{
 }
 
 .banner h1 {
-    font-size: 350%; /* Tamanho da fonte */
+    font-size: 400%; /* Tamanho da fonte */
     font-weight: bold; /* Negrito */
     text-align: center; /* Alinhamento centralizado */
     white-space: nowrap; /* Para que o texto não quebre */
+    font-family: 'pc_font', sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
 }
 
 .anime {
@@ -239,4 +240,13 @@ header{
 
 .games_8{
   background-color: white; /* Cor de fundo */
+  padding-top: 3%; /* Espaçamento interno */
+  padding-bottom: 3%; /* Espaçamento interno */
 }
+
+.espaco_col3{
+  margin-top: 10%; /* Espaçamento superior */
+}
+
+/* Estilos para a secção 5 (footer) */
+
