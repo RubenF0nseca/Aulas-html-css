@@ -1,143 +1,181 @@
-.row{ display: table; width:100%; }
-.col{ display: table-cell; vertical-align: top;}
-.col-1{ width: 8.33%; }
-.col-2{ width: 16.66%;}
-.col-3{ width: 25%; }
-.col-4{ width: 33.33%; }
-.col-5{ width: 41.66%; }
-.col-6{ width: 50%; }
-.col-7{ width: 58.33%; }
-.col-8{ width: 66.66%; }
-.col-9{ width: 75%; }
-.col-10{ width:83.33%;  }
-.col-11{ width: 91.66%; }
-.col-12{ width: 100%; }
-
-:root{
-
-    --cor2: rgb(245, 39, 39);
-    --cor3: rgb(255, 255, 255);
-    --cor4: rgb(0, 0, 0);
+.row {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  vertical-align: top;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
 }
 
-body{
-    background-color: var(--cor4); /* Cor de fundo */
-    font-family: Arial, sans-serif; /* Fonte padrão */
-    margin: 0; /* Margem zero */
-    padding: 0; /* Espaçamento interno */
-    color: var(--cor3); /* Cor do texto */
+:root {
+  --cor2: rgb(245, 39, 39);
+  --cor3: rgb(255, 255, 255);
+  --cor4: rgb(0, 0, 0);
 }
 
-header{
-    padding: 40px 0; /* Espaçamento interno */
-    text-align: center; /* Alinhamento centralizado */
+body {
+  background-color: var(--cor4); /* Cor de fundo */
+  font-family: Arial, sans-serif; /* Fonte padrão */
+  margin: 0; /* Margem zero */
+  padding: 0; /* Espaçamento interno */
+  color: var(--cor3); /* Cor do texto */
 }
-.nav_menu{
-    position: fixed; /* Para que o menu fique fixo */
-    width: 100%; /* Largura total */
-    top: 0%; /* Para que o menu fique no topo */
-    z-index: 9999; /* Para que o menu fique sempre por cima */
-    background-color: black;
-  }
-.nav_menu ul{
-    margin: 0; /* Margem zero */
-    padding: 1.5%; /* Espaçamento interno */
-    list-style: none; /* Remove marcadores */
-    display: flex; /* Para que os elementos fiquem ao lado um do outro */
-    justify-content: center; /* Alinhamento centralizado */
-    list-style-type: none; /* Remove marcadores */
+
+header {
+  padding: 40px 0; /* Espaçamento interno */
+  text-align: center; /* Alinhamento centralizado */
 }
-.nav_menu a{
-    padding-left: 40px; /* Espaçamento interno */
-    font-size: 170%; /* Tamanho da fonte */
+.nav_menu {
+  position: fixed; /* Para que o menu fique fixo */
+  width: 100%; /* Largura total */
+  top: 0%; /* Para que o menu fique no topo */
+  z-index: 9999; /* Para que o menu fique sempre por cima */
+  background-color: black;
 }
-.nav_menu li{
-    display: inline-block; /* Para que os elementos fiquem ao lado um do outro */
+.nav_menu ul {
+  margin: 0; /* Margem zero */
+  padding: 1.5%; /* Espaçamento interno */
+  list-style: none; /* Remove marcadores */
+  display: flex; /* Para que os elementos fiquem ao lado um do outro */
+  justify-content: center; /* Alinhamento centralizado */
+  list-style-type: none; /* Remove marcadores */
 }
-.nav_menu li a{
-    text-decoration: none; /* Remove sublinhado do menu */
-    color: var(--cor3); 
+.nav_menu a {
+  padding-left: 40px; /* Espaçamento interno */
+  font-size: 170%; /* Tamanho da fonte */
+}
+.nav_menu li {
+  display: inline-block; /* Para que os elementos fiquem ao lado um do outro */
+}
+.nav_menu li a {
+  text-decoration: none; /* Remove sublinhado do menu */
+  color: var(--cor3);
 }
 
 .banner h1 {
-    font-size: 400%; /* Tamanho da fonte */
-    font-weight: bold; /* Negrito */
-    text-align: center; /* Alinhamento centralizado */
-    white-space: nowrap; /* Para que o texto não quebre */
-    font-family: 'pc_font', sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
+  font-size: 400%; /* Tamanho da fonte */
+  font-weight: bold; /* Negrito */
+  text-align: center; /* Alinhamento centralizado */
+  white-space: nowrap; /* Para que o texto não quebre */
+  font-family: "pc_font", sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
 }
 
 .anime {
-    display: inline-block; /* Para que os elementos fiquem ao lado um do outro */
-    font-size: 200%; /* Tamanho da fonte */
+  display: inline-block; /* Para que os elementos fiquem ao lado um do outro */
+  font-size: 200%; /* Tamanho da fonte */
 }
 
 .anime:not(:first-child) {
-    width: 100%; /* Largura total */
+  width: 100%; /* Largura total */
 }
 
 @keyframes color-change {
-    0% { color: red; } /* Cor inicial */
-    25% { color: blue; } /* Cor aos 25% */
-    50% { color: green; } /* Cor aos 50% */
-    75% { color: yellow; } /* Cor aos 75% */
-    100% { color: red; } /* Cor final */
+  0% {
+    color: red;
+  } /* Cor inicial */
+  25% {
+    color: blue;
+  } /* Cor aos 25% */
+  50% {
+    color: green;
+  } /* Cor aos 50% */
+  75% {
+    color: yellow;
+  } /* Cor aos 75% */
+  100% {
+    color: red;
+  } /* Cor final */
 }
 
 .anime {
-    animation: color-change 3s infinite; /* 3 segundos */
+  animation: color-change 3s infinite; /* 3 segundos */
 }
 
 /* Estilos para a secção CTA */
-.cta-section {  
-    text-align: center; /* Alinhamento centralizado */
-    padding: 20px; /* Espaçamento interno */
-    color: #fff; /* Texto branco */
-    padding-left: 20%; /* Espaçamento laterais */
-    padding-right: 20%; /* Espaçamento laterais */
-  }
-  
-  .cta-section h2 {
-    font-size: 30px; /* Tamanho grande para o título */
-    margin-bottom: 10px; /* Espaçamento inferior */
-    color: red;
-  }
-  
-  .cta-section p {
-    font-size: 19px; /* Tamanho moderado para a descrição */
-    margin-bottom: 20px; /* Espaçamento inferior */
-    color: red;
-  }
-  
-  .cta-button {
-    display: flex; /* Para que o botão fique ao lado do outro */
-    justify-content: left; /* Alinhamento centralizado */
-    background-color: red; /* Cor verde para o botão, chamativa */
-    color: black; /* Texto preto */
-    padding: 10px 80px; /* Espaçamento interno */
-    height: 30%; /* Altura do botão */
-    width: 30%; /* Largura do botão */
-    text-align: center; /* Alinhamento do texto */
-    text-decoration: none; /* Remove sublinhado dos links */
-    font-size: 18px; /* Tamanho da fonte */
-    transition: background-color 0.3s; /* Efeito de transição */
-    border: 1px solid #000; /* Borda preta */
-    cursor: pointer; /* Cursor ao passar o rato */
+.cta-section {
+  text-align: center; /* Alinhamento centralizado */
+  padding: 20px; /* Espaçamento interno */
+  color: #fff; /* Texto branco */
+  padding-left: 20%; /* Espaçamento laterais */
+  padding-right: 20%; /* Espaçamento laterais */
+}
 
-  }
-  
-  .cta-button:hover {
-    background-color: #eef6ee; /* Cor um pouco mais escura ao passar o rato */
-  }
+.cta-section h2 {
+  font-size: 30px; /* Tamanho grande para o título */
+  margin-bottom: 10px; /* Espaçamento inferior */
+  color: red;
+}
+
+.cta-section p {
+  font-size: 19px; /* Tamanho moderado para a descrição */
+  margin-bottom: 20px; /* Espaçamento inferior */
+  color: red;
+}
+
+.cta-button {
+  display: flex; /* Para que o botão fique ao lado do outro */
+  justify-content: left; /* Alinhamento centralizado */
+  background-color: red; /* Cor verde para o botão, chamativa */
+  color: black; /* Texto preto */
+  padding: 10px 80px; /* Espaçamento interno */
+  height: 30%; /* Altura do botão */
+  width: 30%; /* Largura do botão */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Remove sublinhado dos links */
+  font-size: 18px; /* Tamanho da fonte */
+  transition: background-color 0.3s; /* Efeito de transição */
+  border: 1px solid #000; /* Borda preta */
+  cursor: pointer; /* Cursor ao passar o rato */
+}
+
+.cta-button:hover {
+  background-color: #eef6ee; /* Cor um pouco mais escura ao passar o rato */
+}
 
 /* Estilos para a secção 3 (ps5,nitendo,pc */
 
-  /* Fontes */
-  @font-face {
-    font-family: 'Font_ps5';
-    src: url('Fonts/ps-font/PsBold-2Oy2w.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+/* Fontes */
+@font-face {
+  font-family: "Font_ps5";
+  src: url("Fonts/ps-font/PsBold-2Oy2w.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .sec_3 {
@@ -148,33 +186,38 @@ header{
 }
 /* botao para ps5 */
 .box_button {
-    display: inline-block; /* Para que o botão fique ao lado do outro */
-    background-color: blue; /*para o botão, convem ser chamativa */
-    color: white; /* Texto branco */
-    width: 67%; /* Largura do botão */
-    /* height: 30%; /* Altura do botão */
-    padding: 20% 14%; /* Espaçamento interno */
-    text-decoration: none; /* Remove sublinhado dos links */
-    font-size: 18px; /* Tamanho da fonte */
-    border-radius: 5px; /* Bordas arredondadas */
-    transition: background-color 0.3s; /* Efeito de transição */
-    font-family: 'Font_ps5', sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
-    text-align: center; /* Alinhamento do texto */
-    border: 1px solid #000; /* Borda preta */
-    cursor: pointer; /* Cursor ao passar o rato */
-    outline: none; /* Remove a borda ao clicar */
-  }
-  
-  .box_button:hover {
-    background-color: rgb(11, 25, 80); /* Cor um pouco mais escura ao passar o rato */
-  }
-  /* botao para nitendo */
-  /* Fontes */
-  @font-face {
-    font-family: 'nintendo_font';
-    src: url('Fonts/ro-spritendo-font/RoSpritendoSemiboldBeta-vmVwZ.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+  display: inline-block; /* Para que o botão fique ao lado do outro */
+  background-color: blue; /*para o botão, convem ser chamativa */
+  color: white; /* Texto branco */
+  width: 67%; /* Largura do botão */
+  /* height: 30%; /* Altura do botão */
+  padding: 20% 14%; /* Espaçamento interno */
+  text-decoration: none; /* Remove sublinhado dos links */
+  font-size: 18px; /* Tamanho da fonte */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s; /* Efeito de transição */
+  font-family: "Font_ps5", sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
+  text-align: center; /* Alinhamento do texto */
+  border: 1px solid #000; /* Borda preta */
+  cursor: pointer; /* Cursor ao passar o rato */
+  outline: none; /* Remove a borda ao clicar */
+}
+
+.box_button:hover {
+  background-color: rgb(
+    11,
+    25,
+    80
+  ); /* Cor um pouco mais escura ao passar o rato */
+}
+/* botao para nitendo */
+/* Fontes */
+@font-face {
+  font-family: "nintendo_font";
+  src: url("Fonts/ro-spritendo-font/RoSpritendoSemiboldBeta-vmVwZ.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 .box_button_nin {
   display: inline-block; /* Para que o botão fique ao lado do outro */
@@ -187,7 +230,7 @@ header{
   font-size: 18px; /* Tamanho da fonte */
   border-radius: 5px; /* Bordas arredondadas */
   transition: background-color 0.3s; /* Efeito de transição */
-  font-family: 'nintendo_font', sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
+  font-family: "nintendo_font", sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
   text-align: center; /* Alinhamento do texto */
   border: 1px solid #000; /* Borda preta */
   cursor: pointer; /* Cursor ao passar o rato */
@@ -195,15 +238,19 @@ header{
 }
 
 .box_button_nin:hover {
-  background-color: rgb(110, 3, 3); /* Cor um pouco mais escura ao passar o rato */
+  background-color: rgb(
+    110,
+    3,
+    3
+  ); /* Cor um pouco mais escura ao passar o rato */
 }
-  /* botao para pc */
-  /* Fontes */
-  @font-face {
-    font-family: 'pc_font';
-    src: url('Fonts/pc-senior-font/PcSeniorRegular-OEnd.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+/* botao para pc */
+/* Fontes */
+@font-face {
+  font-family: "pc_font";
+  src: url("Fonts/pc-senior-font/PcSeniorRegular-OEnd.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 .box_button_pc {
   display: inline-block; /* Para que o botão fique ao lado do outro */
@@ -216,7 +263,7 @@ header{
   font-size: 18px; /* Tamanho da fonte */
   border-radius: 5px; /* Bordas arredondadas */
   transition: background-color 0.3s; /* Efeito de transição */
-  font-family: 'pc_font', sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
+  font-family: "pc_font", sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
   text-align: center; /* Alinhamento do texto */
   border: 1px solid #000; /* Borda preta */
   cursor: pointer; /* Cursor ao passar o rato */
@@ -228,25 +275,24 @@ header{
 }
 /* Estilos para a secção 4 (8 produtos) */
 
-.container_games{
-    display: flex; /* Para que os elementos fiquem ao lado um do outro */
-    justify-content: center; /* Alinhamento centralizado */
-    padding-left: 20%; /* Espaçamento laterais */
-    padding-right: 21%; /* Espaçamento laterais */
-    margin-top: 2%; /* Espaçamento superior */
-    color: #000; /* Texto preto */
-    text-align: center; /* Alinhamento centralizado */
+.container_games {
+  padding-left: 20%; /* Espaçamento laterais */
+  padding-right: 20%; /* Espaçamento laterais */
+  margin-top: 2%; /* Espaçamento superior */
+  color: #000; /* Texto preto */
+  text-align: center; /* Alinhamento centralizado */
 }
 
-.games_8{
+.games_8 {
   background-color: white; /* Cor de fundo */
   padding-top: 3%; /* Espaçamento interno */
   padding-bottom: 3%; /* Espaçamento interno */
+  display: flex; /* Para que os elementos fiquem ao lado um do outro */
+  justify-content: center; /* Alinhamento centralizado */
 }
 
-.espaco_col3{
+.espaco_col3 {
   margin-top: 10%; /* Espaçamento superior */
 }
 
 /* Estilos para a secção 5 (footer) */
-
