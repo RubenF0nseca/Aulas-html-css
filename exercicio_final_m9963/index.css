@@ -276,11 +276,12 @@ header {
 /* Estilos para a secção 4 (8 produtos) */
 
 .container_games {
-  padding-left: 20%; /* Espaçamento laterais */
-  padding-right: 20%; /* Espaçamento laterais */
+
   margin-top: 2%; /* Espaçamento superior */
   color: #000; /* Texto preto */
   text-align: center; /* Alinhamento centralizado */
+  padding-left: 20%; /* Espaçamento laterais */
+  padding-right: 20%; /* Espaçamento laterais */
 }
 
 .games_8 {
@@ -289,10 +290,69 @@ header {
   padding-bottom: 3%; /* Espaçamento interno */
   display: flex; /* Para que os elementos fiquem ao lado um do outro */
   justify-content: center; /* Alinhamento centralizado */
+
 }
 
 .espaco_col3 {
   margin-top: 10%; /* Espaçamento superior */
 }
 
-/* Estilos para a secção 5 (footer) */
+.box_button_vermais{
+  display: inline-block; /* Para que o botão fique ao lado do outro */
+  background-color: red; /*para o botão, convem ser chamativa */
+  color: white; /* Texto branco */
+  width: 67%; /* Largura do botão */
+  /* height: 30%; /* Altura do botão */
+  padding: 8% 2%; /* Espaçamento interno */
+  text-decoration: none; /* Remove sublinhado dos links */
+  font-size: 18px; /* Tamanho da fonte */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s; /* Efeito de transição */
+  text-align: center; /* Alinhamento do texto */
+  border: 1px solid #000; /* Borda preta */
+  cursor: pointer; /* Cursor ao passar o rato */
+  outline: none; /* Remove a borda ao clicar */
+}
+
+.box_button_vermais:hover {
+  background-color: rgb(79, 0, 0); /* Cor um pouco mais escura ao passar o rato */
+}
+
+/* Estilos para a secção 5 contactos mapas e mensagem */
+.sec_contactos {
+  padding: 0%; /* Espaçamento interno */
+  padding-left: 20%; /* Espaçamento laterais */
+  padding-right: 20%; /* Espaçamento laterais */
+  margin-top: 2%; /* Espaçamento superior */
+  text-align: center; /* Alinhamento centralizado */
+}
+
+/* Estilos para o mapa */
+.mapa {
+  width: 100%; /* Largura total */
+  height: 400px; /* Altura do mapa */
+  margin-top: 2%; /* Espaçamento superior */
+}
+
+/* Estilos para o formulário */
+.pad_mensagem{
+  text-align: center; /* Alinhamento centralizado */
+
+}
+
+.mensagem {
+  padding: 1%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  top: 2%;
+}
+
+.mensagem textarea {
+  width: 60%;
+  height: 60%;
+  margin: 5%;
+}
+
+
+
