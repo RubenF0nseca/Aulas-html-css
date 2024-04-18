@@ -609,3 +609,22 @@ footer {
   color: var(--cor1);
   font-size: 1.4rem;
 }
+
+/* estilo para produtos */
+
+.segundo{
+  margin: 0%;
+}
+
+.container_games h1{
+  color: white;
+
+}
+
+.produtos_cat{
+  margin-bottom: 0%;
+}
+
+.paginaproduto_footer{
+  margin-bottom: 10%;
+}
