@@ -55,6 +55,7 @@ body {
   margin: 0; /* Margem zero */
   padding: 0; /* Espaçamento interno */
   color: var(--cor3); /* Cor do texto */
+  overflow-x: hidden;
 }
 
 .header {
@@ -87,7 +88,7 @@ body {
 }
 
 .gameon{
-	font-family: 'Chewy', cursive;
+	font-family: "pc_font", sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
 	font-size: 50px;
   color: red;
 }
@@ -452,4 +453,159 @@ footer {
   margin-top: 2%;
   padding-left: 20%; /* Espaçamento laterais */
   padding-right: 20%; /* Espaçamento laterais */
+  margin-bottom: 2%;
+}
+
+/* estilos para categorias */
+
+.container_categorias{
+  margin-top: 6%; /* Espaçamento superior */
+  color: #000; /* Texto preto */
+  text-align: center; /* Alinhamento centralizado */
+  padding-left: 20%; /* Espaçamento laterais */
+  padding-right: 20%; /* Espaçamento laterais */
+  margin-bottom: 12%;
+}
+
+.categorias_8 {
+  padding-top: 3%; /* Espaçamento interno */
+  padding-bottom: 3%; /* Espaçamento interno */
+  display: flex; /* Para que os elementos fiquem ao lado um do outro */
+  justify-content: center; /* Alinhamento centralizado */
+
+}
+
+.box_button_categorias{
+  display: inline-block; /* Para que o botão fique ao lado do outro */
+  background-color: rgba(255, 0, 0, 0.692); /*para o botão, convem ser chamativa */
+  color: white; /* Texto branco */
+  width: 77%; /* Largura do botão */
+  /* height: 30%; /* Altura do botão */
+  padding: 15% 5%; /* Espaçamento interno */
+  text-decoration: none; /* Remove sublinhado dos links */
+  font-size: 18px; /* Tamanho da fonte */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s; /* Efeito de transição */
+  text-align: center; /* Alinhamento do texto */
+  border: 1px solid #000; /* Borda preta */
+  cursor: pointer; /* Cursor ao passar o rato */
+  outline: none; /* Remove a borda ao clicar */
+}
+
+.box_button_categorias:hover {
+  background-color: rgb(196, 6, 6); /* Cor um pouco mais escura ao passar o rato */
+}
+
+/* estilos login */
+
+.login-page{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 440px;
+  height: 480px;
+  padding: 30px;
+  margin: 5% auto;
+  background-color: rgba(212, 67, 67, 0.279);
+  border-radius: 30px;
+}
+
+.login-header{
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+
+.login-header header{
+  color: var(--cor1);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.input .input-field{
+  width: 95%;
+  height: 60px;
+  font-size: 17px;
+  padding: 0 0 0 25px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.05);
+  outline: none;
+  transition: 0.3s;
+}
+
+::placeholder{
+  font-weight: 500;
+  color: #222;
+}
+
+.input-field:focus{
+  width: 100%;
+}
+
+.esquecer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.esquecer a:hover{
+  text-decoration:underline ;
+}
+
+.login section{
+  align-items: center;
+  font-size: 14px;
+  color: var(--cor1);
+  font-weight: 500;
+}
+
+.login section a{
+  color: rgb(0, 0, 0);
+}
+#check{
+  margin-right: 10px;
+}
+
+.input-submit{
+  position: relative;
+}
+
+.submit-btn{
+  width: 100%;
+  height: 60px;
+  background: rgba(219,55,55,0.5);
+  border: 2px solid rgba(219,55,55,0.8);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.submit-btn:hover{
+  width: 100%;
+  height: 60px;
+  background: rgb(219,55,55);
+  border: 2px solid rgb(219,55,55);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.input-submit label{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  color: var(--cor1);
+  font-size: 1.4rem;
 }
