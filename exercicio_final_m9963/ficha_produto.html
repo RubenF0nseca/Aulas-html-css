@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo.css" />
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Game on</title>
 </head>
 
@@ -18,14 +19,19 @@
                 </a>
             </div>
             <nav class="menu">
-                <ul>
-                    <li><a href="/index.html"><i class="fa-sharp fa-solid fa-house fa-sm"></i>Home</a></li>
-                    <li><a href="/sobre.html"><i class="fa-solid fa-gamepad fa-sm"></i>Sobre</a></li>
-                    <li><a href="/categorias.html"><i class="fa-solid fa-tags fa-sm"></i>Categorias</a></li>
-                    <li><a href="/Produtos.html"><i class="fa-brands fa-product-hunt fa-sm"></i>Produtos</a></li>
-                    <li><a href="/index.html#contactos"><i class="fa-solid fa-location-dot fa-sm"></i>Contactos</a></li>
-                    <li><a href="/login.html"><i class="fa-solid fa-user fa-sm"></i>Login</a></li>
-                </ul>
+                <div id="burger"><i class="fas fa-bars"></i></div>
+                <div class="menu_desktop">
+                    <div id="none_burger">
+                        <ul>
+                            <li><a href="/index.html"><i class="fa-sharp fa-solid fa-house fa-sm"></i>Home</a></li>
+                            <li><a href="/sobre.html"><i class="fa-solid fa-gamepad fa-sm"></i>Sobre</a></li>
+                            <li><a href="/categorias.html"><i class="fa-solid fa-tags fa-sm"></i>Categorias</a></li>
+                            <li><a href="/Produtos.html"><i class="fa-brands fa-product-hunt fa-sm"></i>Produtos</a></li>
+                            <li><a href="/index.html#contactos"><i class="fa-solid fa-location-dot fa-sm"></i>Contactos</a></li>
+                            <li><a href="/login.html"><i class="fa-solid fa-user fa-sm"></i>Login</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>  
         </div>
     </header>
@@ -54,5 +60,12 @@
             <i class="fa-brands fa-linkedin">&#160&#160&#160   </i>   
             <p>Made by: Ruben Fonseca - 04/24</p>
     </footer>
+    <script>
+        $(document).ready(function(){
+            $("#burger").click(function(){
+                $("#none_burger").toggle();
+            });
+        });
+    </script>
 </body>
 </html>

@@ -2,43 +2,56 @@
   display: table;
   width: 100%;
 }
+
 .col {
   display: table-cell;
   vertical-align: top;
 }
+
 .col-1 {
   width: 8.33%;
 }
+
 .col-2 {
   width: 16.66%;
 }
+
 .col-3 {
   width: 25%;
 }
+
 .col-4 {
   width: 33.33%;
 }
+
 .col-5 {
   width: 41.66%;
 }
+
 .col-6 {
   width: 50%;
 }
+
 .col-7 {
   width: 58.33%;
 }
+
 .col-8 {
   width: 66.66%;
 }
+
 .col-9 {
   width: 75%;
 }
+
 .col-10 {
   width: 83.33%;
 }
+
 .col-11 {
   width: 91.66%;
 }
+
 .col-12 {
   width: 100%;
 }
@@ -50,11 +63,16 @@
 }
 
 body {
-  background-color: var(--cor4); /* Cor de fundo */
-  font-family: Arial, sans-serif; /* Fonte padrão */
-  margin: 0; /* Margem zero */
-  padding: 0; /* Espaçamento interno */
-  color: var(--cor3); /* Cor do texto */
+  background-color: var(--cor4);
+  /* Cor de fundo */
+  font-family: Arial, sans-serif;
+  /* Fonte padrão */
+  margin: 0;
+  /* Margem zero */
+  padding: 0;
+  /* Espaçamento interno */
+  color: var(--cor3);
+  /* Cor do texto */
   overflow-x: hidden;
 }
 
@@ -63,154 +81,195 @@ body {
 }
 
 .header .container {
-    background-color: black;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    box-shadow: 0px 2px 15px rgba(204, 25, 25, 0.1);
+  background-color: black;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 2px 15px rgba(204, 25, 25, 0.1);
 }
 
-.branding{
-	display: flex;
-	align-items: center;
+.branding {
+  display: flex;
+  align-items: center;
   margin-left: 5%;
 }
 
-.header .container .branding a{
+.header .container .branding a {
   display: flex;
 }
 
-.logo{
-	margin: 0 auto;
-	height: 70px;
+.logo {
+  margin: 0 auto;
+  height: 70px;
 }
 
-.gameon{
-	font-family: "pc_font", sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
-	font-size: 50px;
+.gameon {
+  font-family: "pc_font", sans-serif;
+  /* Fonte personalizada, em caso de erro sans-serif */
+  font-size: 50px;
   color: red;
 }
 
-.menu{
+.menu {
   margin-right: 5%;
 }
 
-a{
+a {
   text-decoration: none;
-	color: var(--cor2);
-    
+  color: var(--cor2);
+
 }
 
-.menu ul{
-	display: flex;
-	list-style: none;
+.menu ul {
+  display: flex;
+  list-style: none;
   font-family: 'Poppins', sans-serif;
 }
 
-.menu li{
-	margin-left: 20px;
+.menu li {
+  margin-left: 20px;
   margin-right: 6px;
-	
+
 }
 
-.menu li:nth-last-child{
-	margin-left: 0%;
+.menu li:nth-last-child {
+  margin-left: 0%;
 }
 
-.menu a{
+.menu a {
   color: white;
-	font-size: 20px;
+  font-size: 20px;
 }
 
-.menu a:hover{
-	color: white;
+.menu a:hover {
+  color: white;
 }
 
-.menu i{
+.menu i {
   margin-right: 6px;
 }
 
 /* Estilos para a secção 1 (banner) */
 .banner h1 {
-  font-size: 400%; /* Tamanho da fonte */
-  font-weight: bold; /* Negrito */
-  text-align: center; /* Alinhamento centralizado */
-  white-space: nowrap; /* Para que o texto não quebre */
-  font-family: "pc_font", sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
+  font-size: 400%;
+  /* Tamanho da fonte */
+  font-weight: bold;
+  /* Negrito */
+  text-align: center;
+  /* Alinhamento centralizado */
+  white-space: nowrap;
+  /* Para que o texto não quebre */
+  font-family: "pc_font", sans-serif;
+  /* Fonte personalizada, em caso de erro sans-serif */
 }
 
 .anime {
-  display: inline-block; /* Para que os elementos fiquem ao lado um do outro */
-  font-size: 200%; /* Tamanho da fonte */
+  display: inline-block;
+  /* Para que os elementos fiquem ao lado um do outro */
+  font-size: 200%;
+  /* Tamanho da fonte */
 }
 
 .anime:not(:first-child) {
-  width: 100%; /* Largura total */
+  width: 100%;
+  /* Largura total */
 }
 
 @keyframes color-change {
   0% {
     color: red;
-  } /* Cor inicial */
+  }
+
+  /* Cor inicial */
   25% {
     color: blue;
-  } /* Cor aos 25% */
+  }
+
+  /* Cor aos 25% */
   50% {
     color: green;
-  } /* Cor aos 50% */
+  }
+
+  /* Cor aos 50% */
   75% {
     color: yellow;
-  } /* Cor aos 75% */
+  }
+
+  /* Cor aos 75% */
   100% {
     color: red;
-  } /* Cor final */
+  }
+
+  /* Cor final */
 }
 
 .anime {
-  animation: color-change 3s infinite; /* 3 segundos */
+  animation: color-change 3s infinite;
+  /* 3 segundos */
 }
 
 /* Estilos para a secção CTA */
 .cta-section {
-  text-align: center; /* Alinhamento centralizado */
-  padding: 20px; /* Espaçamento interno */
-  color: #fff; /* Texto branco */
-  padding-left: 20%; /* Espaçamento laterais */
-  padding-right: 20%; /* Espaçamento laterais */
+  text-align: center;
+  /* Alinhamento centralizado */
+  color: #fff;
+  /* Texto branco */
+  padding-left: 20%;
+  /* Espaçamento laterais */
+  padding-right: 20%;
+  /* Espaçamento laterais */
 }
 
 .cta-section h2 {
-  font-size: 30px; /* Tamanho grande para o título */
-  margin-bottom: 10px; /* Espaçamento inferior */
+  font-size: 30px;
+  /* Tamanho grande para o título */
+  margin-bottom: 10px;
+  /* Espaçamento inferior */
   color: red;
 }
 
 .cta-section p {
-  font-size: 19px; /* Tamanho moderado para a descrição */
-  margin-bottom: 20px; /* Espaçamento inferior */
+  font-size: 19px;
+  /* Tamanho moderado para a descrição */
+  margin-bottom: 20px;
+  /* Espaçamento inferior */
   color: red;
 }
 
 .cta-button {
-  display: flex; /* Para que o botão fique ao lado do outro */
-  justify-content: left; /* Alinhamento centralizado */
-  background-color: red; /* Cor verde para o botão, chamativa */
-  color: black; /* Texto preto */
-  padding: 10px 80px; /* Espaçamento interno */
-  height: 30%; /* Altura do botão */
-  width: 30%; /* Largura do botão */
-  text-align: center; /* Alinhamento do texto */
-  text-decoration: none; /* Remove sublinhado dos links */
-  font-size: 18px; /* Tamanho da fonte */
-  transition: background-color 0.3s; /* Efeito de transição */
-  border: 1px solid #000; /* Borda preta */
-  cursor: pointer; /* Cursor ao passar o rato */
+  display: flex;
+  /* Para que o botão fique ao lado do outro */
+  justify-content: left;
+  /* Alinhamento centralizado */
+  background-color: red;
+  /* Cor verde para o botão, chamativa */
+  color: black;
+  /* Texto preto */
+  padding: 10px 80px;
+  /* Espaçamento interno */
+  height: 30%;
+  /* Altura do botão */
+  width: 30%;
+  /* Largura do botão */
+  text-align: center;
+  /* Alinhamento do texto */
+  text-decoration: none;
+  /* Remove sublinhado dos links */
+  font-size: 18px;
+  /* Tamanho da fonte */
+  transition: background-color 0.3s;
+  /* Efeito de transição */
+  border: 1px solid #000;
+  /* Borda preta */
+  cursor: pointer;
+  /* Cursor ao passar o rato */
 }
 
 .cta-button:hover {
-  background-color: #eef6ee; /* Cor um pouco mais escura ao passar o rato */
+  background-color: #eef6ee;
+  /* Cor um pouco mais escura ao passar o rato */
 }
 
 /* Estilos para a secção 3 (ps5,nitendo,pc */
@@ -224,72 +283,104 @@ a{
 }
 
 .sec_3 {
-  padding: 0%; /* Espaçamento interno */
-  padding-left: 20%; /* Espaçamento laterais */
-  padding-right: 20%; /* Espaçamento laterais */
-  margin-top: 1%; /* Espaçamento superior */
+  padding: 0%;
+  /* Espaçamento interno */
+  padding-left: 20%;
+  /* Espaçamento laterais */
+  padding-right: 20%;
+  /* Espaçamento laterais */
+  margin-top: 1%;
+  /* Espaçamento superior */
 }
+
 /* botao para ps5 */
 .box_button {
-  display: inline-block; /* Para que o botão fique ao lado do outro */
-  background-color: blue; /*para o botão, convem ser chamativa */
-  color: white; /* Texto branco */
-  width: 67%; /* Largura do botão */
+  display: inline-block;
+  /* Para que o botão fique ao lado do outro */
+  background-color: blue;
+  /*para o botão, convem ser chamativa */
+  color: white;
+  /* Texto branco */
+  width: 67%;
+  /* Largura do botão */
   /* height: 30%; /* Altura do botão */
-  padding: 20% 14%; /* Espaçamento interno */
-  text-decoration: none; /* Remove sublinhado dos links */
-  font-size: 18px; /* Tamanho da fonte */
-  border-radius: 5px; /* Bordas arredondadas */
-  transition: background-color 0.3s; /* Efeito de transição */
-  font-family: "Font_ps5", sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
-  text-align: center; /* Alinhamento do texto */
-  border: 1px solid #000; /* Borda preta */
-  cursor: pointer; /* Cursor ao passar o rato */
-  outline: none; /* Remove a borda ao clicar */
+  padding: 20% 14%;
+  /* Espaçamento interno */
+  text-decoration: none;
+  /* Remove sublinhado dos links */
+  font-size: 18px;
+  /* Tamanho da fonte */
+  border-radius: 5px;
+  /* Bordas arredondadas */
+  transition: background-color 0.3s;
+  /* Efeito de transição */
+  font-family: "Font_ps5", sans-serif;
+  /* Fonte personalizada, em caso de erro sans-serif */
+  text-align: center;
+  /* Alinhamento do texto */
+  border: 1px solid #000;
+  /* Borda preta */
+  cursor: pointer;
+  /* Cursor ao passar o rato */
+  outline: none;
+  /* Remove a borda ao clicar */
 }
 
 .box_button:hover {
-  background-color: rgb(
-    11,
-    25,
-    80
-  ); /* Cor um pouco mais escura ao passar o rato */
+  background-color: rgb(11,
+      25,
+      80);
+  /* Cor um pouco mais escura ao passar o rato */
 }
+
 /* botao para nitendo */
 /* Fontes */
 @font-face {
   font-family: "nintendo_font";
-  src: url("Fonts/ro-spritendo-font/RoSpritendoSemiboldBeta-vmVwZ.otf")
-    format("opentype");
+  src: url("Fonts/ro-spritendo-font/RoSpritendoSemiboldBeta-vmVwZ.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 .box_button_nin {
-  display: inline-block; /* Para que o botão fique ao lado do outro */
-  background-color: red; /*para o botão, convem ser chamativa */
-  color: white; /* Texto branco */
-  width: 67%; /* Largura do botão */
+  display: inline-block;
+  /* Para que o botão fique ao lado do outro */
+  background-color: red;
+  /*para o botão, convem ser chamativa */
+  color: white;
+  /* Texto branco */
+  width: 67%;
+  /* Largura do botão */
   /* height: 30%; /* Altura do botão */
-  padding: 20% 14%; /* Espaçamento interno */
-  text-decoration: none; /* Remove sublinhado dos links */
-  font-size: 18px; /* Tamanho da fonte */
-  border-radius: 5px; /* Bordas arredondadas */
-  transition: background-color 0.3s; /* Efeito de transição */
-  font-family: "nintendo_font", sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
-  text-align: center; /* Alinhamento do texto */
-  border: 1px solid #000; /* Borda preta */
-  cursor: pointer; /* Cursor ao passar o rato */
-  outline: none; /* Remove a borda ao clicar */
+  padding: 20% 14%;
+  /* Espaçamento interno */
+  text-decoration: none;
+  /* Remove sublinhado dos links */
+  font-size: 18px;
+  /* Tamanho da fonte */
+  border-radius: 5px;
+  /* Bordas arredondadas */
+  transition: background-color 0.3s;
+  /* Efeito de transição */
+  font-family: "nintendo_font", sans-serif;
+  /* Fonte personalizada, em caso de erro sans-serif */
+  text-align: center;
+  /* Alinhamento do texto */
+  border: 1px solid #000;
+  /* Borda preta */
+  cursor: pointer;
+  /* Cursor ao passar o rato */
+  outline: none;
+  /* Remove a borda ao clicar */
 }
 
 .box_button_nin:hover {
-  background-color: rgb(
-    110,
-    3,
-    3
-  ); /* Cor um pouco mais escura ao passar o rato */
+  background-color: rgb(110,
+      3,
+      3);
+  /* Cor um pouco mais escura ao passar o rato */
 }
+
 /* botao para pc */
 /* Fontes */
 @font-face {
@@ -300,90 +391,140 @@ a{
 }
 
 .box_button_pc {
-  display: inline-block; /* Para que o botão fique ao lado do outro */
-  background-color: rgb(209, 164, 2); /*para o botão, convem ser chamativa */
-  color: white; /* Texto branco */
-  width: 67%; /* Largura do botão */
+  display: inline-block;
+  /* Para que o botão fique ao lado do outro */
+  background-color: rgb(209, 164, 2);
+  /*para o botão, convem ser chamativa */
+  color: white;
+  /* Texto branco */
+  width: 67%;
+  /* Largura do botão */
   /* height: 30%; /* Altura do botão */
-  padding: 20% 14%; /* Espaçamento interno */
-  text-decoration: none; /* Remove sublinhado dos links */
-  font-size: 18px; /* Tamanho da fonte */
-  border-radius: 5px; /* Bordas arredondadas */
-  transition: background-color 0.3s; /* Efeito de transição */
-  font-family: "pc_font", sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
-  text-align: center; /* Alinhamento do texto */
-  border: 1px solid #000; /* Borda preta */
-  cursor: pointer; /* Cursor ao passar o rato */
-  outline: none; /* Remove a borda ao clicar */
+  padding: 20% 14%;
+  /* Espaçamento interno */
+  text-decoration: none;
+  /* Remove sublinhado dos links */
+  font-size: 18px;
+  /* Tamanho da fonte */
+  border-radius: 5px;
+  /* Bordas arredondadas */
+  transition: background-color 0.3s;
+  /* Efeito de transição */
+  font-family: "pc_font", sans-serif;
+  /* Fonte personalizada, em caso de erro sans-serif */
+  text-align: center;
+  /* Alinhamento do texto */
+  border: 1px solid #000;
+  /* Borda preta */
+  cursor: pointer;
+  /* Cursor ao passar o rato */
+  outline: none;
+  /* Remove a borda ao clicar */
 }
 
 .box_button_pc:hover {
-  background-color: brown; /* Cor um pouco mais escura ao passar o rato */
+  background-color: brown;
+  /* Cor um pouco mais escura ao passar o rato */
 }
+
 /* Estilos para a secção 4 (8 produtos) */
 
 .container_games {
 
-  margin-top: 2%; /* Espaçamento superior */
-  color: #000; /* Texto preto */
-  text-align: center; /* Alinhamento centralizado */
-  padding-left: 20%; /* Espaçamento laterais */
-  padding-right: 20%; /* Espaçamento laterais */
+  margin-top: 2%;
+  /* Espaçamento superior */
+  color: #000;
+  /* Texto preto */
+  text-align: center;
+  /* Alinhamento centralizado */
+  padding-left: 20%;
+  /* Espaçamento laterais */
+  padding-right: 20%;
+  /* Espaçamento laterais */
 }
 
 .games_8 {
-  background-color: white; /* Cor de fundo */
-  padding-top: 3%; /* Espaçamento interno */
-  padding-bottom: 3%; /* Espaçamento interno */
-  display: flex; /* Para que os elementos fiquem ao lado um do outro */
-  justify-content: center; /* Alinhamento centralizado */
+  background-color: white;
+  /* Cor de fundo */
+  padding-top: 3%;
+  /* Espaçamento interno */
+  padding-bottom: 3%;
+  /* Espaçamento interno */
+  display: flex;
+  /* Para que os elementos fiquem ao lado um do outro */
+  justify-content: center;
+  /* Alinhamento centralizado */
 
 }
 
 .espaco_col3 {
-  margin-top: 10%; /* Espaçamento superior */
+  margin-top: 10%;
+  /* Espaçamento superior */
 }
 
-.box_button_vermais{
-  display: inline-block; /* Para que o botão fique ao lado do outro */
-  background-color: red; /*para o botão, convem ser chamativa */
-  color: white; /* Texto branco */
-  width: 67%; /* Largura do botão */
+.box_button_vermais {
+  display: inline-block;
+  /* Para que o botão fique ao lado do outro */
+  background-color: red;
+  /*para o botão, convem ser chamativa */
+  color: white;
+  /* Texto branco */
+  width: 67%;
+  /* Largura do botão */
   /* height: 30%; /* Altura do botão */
-  padding: 8% 2%; /* Espaçamento interno */
-  text-decoration: none; /* Remove sublinhado dos links */
-  font-size: 18px; /* Tamanho da fonte */
-  border-radius: 5px; /* Bordas arredondadas */
-  transition: background-color 0.3s; /* Efeito de transição */
-  text-align: center; /* Alinhamento do texto */
-  border: 1px solid #000; /* Borda preta */
-  cursor: pointer; /* Cursor ao passar o rato */
-  outline: none; /* Remove a borda ao clicar */
+  padding: 8% 2%;
+  /* Espaçamento interno */
+  text-decoration: none;
+  /* Remove sublinhado dos links */
+  font-size: 18px;
+  /* Tamanho da fonte */
+  border-radius: 5px;
+  /* Bordas arredondadas */
+  transition: background-color 0.3s;
+  /* Efeito de transição */
+  text-align: center;
+  /* Alinhamento do texto */
+  border: 1px solid #000;
+  /* Borda preta */
+  cursor: pointer;
+  /* Cursor ao passar o rato */
+  outline: none;
+  /* Remove a borda ao clicar */
 }
 
 .box_button_vermais:hover {
-  background-color: rgb(79, 0, 0); /* Cor um pouco mais escura ao passar o rato */
+  background-color: rgb(79, 0, 0);
+  /* Cor um pouco mais escura ao passar o rato */
 }
 
 /* Estilos para a secção 5 contactos mapas e mensagem */
 .sec_contactos {
-  padding: 0%; /* Espaçamento interno */
-  padding-left: 20%; /* Espaçamento laterais */
-  padding-right: 20%; /* Espaçamento laterais */
-  margin-top: 2%; /* Espaçamento superior */
-  text-align: center; /* Alinhamento centralizado */
+  padding: 0%;
+  /* Espaçamento interno */
+  padding-left: 20%;
+  /* Espaçamento laterais */
+  padding-right: 20%;
+  /* Espaçamento laterais */
+  margin-top: 2%;
+  /* Espaçamento superior */
+  text-align: center;
+  /* Alinhamento centralizado */
 }
 
 /* Estilos para o mapa */
 .mapa {
-  width: 100%; /* Largura total */
-  height: 400px; /* Altura do mapa */
-  margin-top: 2%; /* Espaçamento superior */
+  width: 100%;
+  /* Largura total */
+  height: 400px;
+  /* Altura do mapa */
+  margin-top: 2%;
+  /* Espaçamento superior */
 }
 
 /* Estilos para o formulário */
-.pad_mensagem{
-  text-align: center; /* Alinhamento centralizado */
+.pad_mensagem {
+  text-align: center;
+  /* Alinhamento centralizado */
 
 }
 
@@ -401,37 +542,58 @@ a{
   margin: 5%;
 }
 
-.box_button_enviar{
-  display: inline-block; /* Para que o botão fique ao lado do outro */
-  background-color: red; /*para o botão, convem ser chamativa */
-  color: white; /* Texto branco */
-  width: 10%; /* Largura do botão */
+.box_button_enviar {
+  display: inline-block;
+  /* Para que o botão fique ao lado do outro */
+  background-color: red;
+  /*para o botão, convem ser chamativa */
+  color: white;
+  /* Texto branco */
+  width: 10%;
+  /* Largura do botão */
   /* height: 30%; /* Altura do botão */
-  padding: 1% 20%; /* Espaçamento interno */
-  text-decoration: none; /* Remove sublinhado dos links */
-  font-size: 18px; /* Tamanho da fonte */
-  border-radius: 5px; /* Bordas arredondadas */
-  transition: background-color 0.3s; /* Efeito de transição */
-  text-align: center; /* Alinhamento do texto */
-  border: 2px solid #000; /* Borda preta */
-  cursor: pointer; /* Cursor ao passar o rato */
-  outline: none; /* Remove a borda ao clicar */  
-  justify-content: center; /* Alinhamento centralizado */
-  
+  padding: 1% 20%;
+  /* Espaçamento interno */
+  text-decoration: none;
+  /* Remove sublinhado dos links */
+  font-size: 18px;
+  /* Tamanho da fonte */
+  border-radius: 5px;
+  /* Bordas arredondadas */
+  transition: background-color 0.3s;
+  /* Efeito de transição */
+  text-align: center;
+  /* Alinhamento do texto */
+  border: 2px solid #000;
+  /* Borda preta */
+  cursor: pointer;
+  /* Cursor ao passar o rato */
+  outline: none;
+  /* Remove a borda ao clicar */
+  justify-content: center;
+  /* Alinhamento centralizado */
+
 }
 
 .box_button_enviar:hover {
-  background-color: rgb(79, 0, 0); /* Cor um pouco mais escura ao passar o rato */
+  background-color: rgb(79, 0, 0);
+  /* Cor um pouco mais escura ao passar o rato */
 }
 
 /* Estilos para o footer */
 footer {
-  background-color: rgb(0, 0, 0); /* Cor de fundo */
-  color: white; /* Texto branco */
-  text-align: center; /* Alinhamento centralizado */
-  margin-top: 2%; /* Espaçamento superior */
-  padding-left: 20%; /* Espaçamento laterais */
-  padding-right: 20%; /* Espaçamento laterais */
+  background-color: rgb(0, 0, 0);
+  /* Cor de fundo */
+  color: white;
+  /* Texto branco */
+  text-align: center;
+  /* Alinhamento centralizado */
+  margin-top: 2%;
+  /* Espaçamento superior */
+  padding-left: 20%;
+  /* Espaçamento laterais */
+  padding-right: 20%;
+  /* Espaçamento laterais */
 }
 
 /* estilos para pagina de produtos */
@@ -440,65 +602,97 @@ footer {
 
 /* Estilos para banner */
 .banner_sobre h1 {
-  font-size: 500%; /* Tamanho da fonte */
-  font-weight: bold; /* Negrito */
-  text-align: center; /* Alinhamento centralizado */
-  white-space: nowrap; /* Para que o texto não quebre */
-  font-family: "pc_font", sans-serif; /* Fonte personalizada, em caso de erro sans-serif */
-  justify-content: center; /* Alinhamento centralizado */
-  padding-top: 10%; /* Espaçamento superior */
+  font-size: 500%;
+  /* Tamanho da fonte */
+  font-weight: bold;
+  /* Negrito */
+  text-align: center;
+  /* Alinhamento centralizado */
+  white-space: nowrap;
+  /* Para que o texto não quebre */
+  font-family: "pc_font", sans-serif;
+  /* Fonte personalizada, em caso de erro sans-serif */
+  justify-content: center;
+  /* Alinhamento centralizado */
+  padding-top: 10%;
+  /* Espaçamento superior */
 }
 
-.sobre_section{
+.sobre_section {
   margin-top: 2%;
-  padding-left: 20%; /* Espaçamento laterais */
-  padding-right: 20%; /* Espaçamento laterais */
+  padding-left: 20%;
+  /* Espaçamento laterais */
+  padding-right: 20%;
+  /* Espaçamento laterais */
   margin-bottom: 2%;
 }
 
 /* estilos para categorias */
 
-.container_categorias{
-  margin-top: 6%; /* Espaçamento superior */
-  color: #000; /* Texto preto */
-  text-align: center; /* Alinhamento centralizado */
-  padding-left: 20%; /* Espaçamento laterais */
-  padding-right: 20%; /* Espaçamento laterais */
+.container_categorias {
+  margin-top: 6%;
+  /* Espaçamento superior */
+  color: #000;
+  /* Texto preto */
+  text-align: center;
+  /* Alinhamento centralizado */
+  padding-left: 20%;
+  /* Espaçamento laterais */
+  padding-right: 20%;
+  /* Espaçamento laterais */
   margin-bottom: 12%;
 }
 
 .categorias_8 {
-  padding-top: 3%; /* Espaçamento interno */
-  padding-bottom: 3%; /* Espaçamento interno */
-  display: flex; /* Para que os elementos fiquem ao lado um do outro */
-  justify-content: center; /* Alinhamento centralizado */
+  padding-top: 3%;
+  /* Espaçamento interno */
+  padding-bottom: 3%;
+  /* Espaçamento interno */
+  display: flex;
+  /* Para que os elementos fiquem ao lado um do outro */
+  justify-content: center;
+  /* Alinhamento centralizado */
 
 }
 
-.box_button_categorias{
-  display: inline-block; /* Para que o botão fique ao lado do outro */
-  background-color: rgba(255, 0, 0, 0.692); /*para o botão, convem ser chamativa */
-  color: white; /* Texto branco */
-  width: 77%; /* Largura do botão */
+.box_button_categorias {
+  display: inline-block;
+  /* Para que o botão fique ao lado do outro */
+  background-color: rgba(255, 0, 0, 0.692);
+  /*para o botão, convem ser chamativa */
+  color: white;
+  /* Texto branco */
+  width: 77%;
+  /* Largura do botão */
   /* height: 30%; /* Altura do botão */
-  padding: 15% 5%; /* Espaçamento interno */
-  text-decoration: none; /* Remove sublinhado dos links */
-  font-size: 18px; /* Tamanho da fonte */
-  border-radius: 5px; /* Bordas arredondadas */
-  transition: background-color 0.3s; /* Efeito de transição */
-  text-align: center; /* Alinhamento do texto */
-  border: 1px solid #000; /* Borda preta */
-  cursor: pointer; /* Cursor ao passar o rato */
-  outline: none; /* Remove a borda ao clicar */
+  padding: 15% 5%;
+  /* Espaçamento interno */
+  text-decoration: none;
+  /* Remove sublinhado dos links */
+  font-size: 18px;
+  /* Tamanho da fonte */
+  border-radius: 5px;
+  /* Bordas arredondadas */
+  transition: background-color 0.3s;
+  /* Efeito de transição */
+  text-align: center;
+  /* Alinhamento do texto */
+  border: 1px solid #000;
+  /* Borda preta */
+  cursor: pointer;
+  /* Cursor ao passar o rato */
+  outline: none;
+  /* Remove a borda ao clicar */
 }
 
 .box_button_categorias:hover {
-  background-color: rgb(196, 6, 6); /* Cor um pouco mais escura ao passar o rato */
+  background-color: rgb(196, 6, 6);
+  /* Cor um pouco mais escura ao passar o rato */
 }
 
 /* estilos login */
 
-.login-page{
+.login-page {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -506,7 +700,7 @@ footer {
   align-items: center;
 }
 
-.login{
+.login {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -518,18 +712,18 @@ footer {
   border-radius: 30px;
 }
 
-.login-header{
+.login-header {
   text-align: center;
   margin: 20px 0 40px 0;
 }
 
-.login-header header{
+.login-header header {
   color: var(--cor1);
   font-size: 40px;
   font-weight: 600;
 }
 
-.input .input-field{
+.input .input-field {
   width: 95%;
   height: 60px;
   font-size: 17px;
@@ -542,120 +736,239 @@ footer {
   transition: 0.3s;
 }
 
-::placeholder{
+::placeholder {
   font-weight: 500;
   color: #222;
 }
 
-.input-field:focus{
+.input-field:focus {
   width: 100%;
 }
 
-.esquecer{
+.esquecer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
 }
 
-.esquecer a:hover{
-  text-decoration:underline ;
+.esquecer a:hover {
+  text-decoration: underline;
 }
 
-.login section{
+.login section {
   align-items: center;
   font-size: 14px;
   color: var(--cor1);
   font-weight: 500;
 }
 
-.login section a{
+.login section a {
   color: rgb(0, 0, 0);
 }
-#check{
+
+#check {
   margin-right: 10px;
 }
 
-.input-submit{
+.input-submit {
   position: relative;
 }
 
-.submit-btn{
+.submit-btn {
   width: 100%;
   height: 60px;
-  background: rgba(219,55,55,0.5);
-  border: 2px solid rgba(219,55,55,0.8);
+  background: rgba(219, 55, 55, 0.5);
+  border: 2px solid rgba(219, 55, 55, 0.8);
   border-radius: 30px;
   cursor: pointer;
   transition: .3s;
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
   width: 100%;
   height: 60px;
-  background: rgb(219,55,55);
-  border: 2px solid rgb(219,55,55);
+  background: rgb(219, 55, 55);
+  border: 2px solid rgb(219, 55, 55);
   border-radius: 30px;
   cursor: pointer;
   transition: .3s;
 }
 
-.input-submit label{
+.input-submit label {
   position: absolute;
   top: 45%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   color: var(--cor1);
   font-size: 1.4rem;
 }
 
 /* estilo para produtos */
 
-.segundo{
+.segundo {
   margin: 0%;
 }
 
-.container_games h1{
+.container_games h1 {
   color: white;
 
 }
 
-.produtos_cat{
+.produtos_cat {
   margin-bottom: 0%;
 }
 
-.paginaproduto_footer{
+.paginaproduto_footer {
   margin-bottom: 10%;
 }
 
 /* tornar o site adaptativo*/
 
-.menu_mobile{
-  display: none;
-}
-#barras{
+
+#burger{
   display: none;
 }
 
 /*tablet*/
-@media only screen and (min-width: 768px) and (max-width: 991px){
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .row {
+    display: table;
+    width: 100%;;
+  }
+
+
+  .col {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+  .col-4{
+    flex-basis: 100% !important;
+    width: 50%;
+    margin-bottom: 20%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .col-3{
+    flex-basis: 100% !important;
+    width: 40%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  .games_8 {
+    display: ruby-text;
+    justify-content: center;
+    width: 100%;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .col {
+    justify-content: center;
+  }
+
+  .gallery-item {
+    display: table-cell;
+    padding-bottom: 2%;
+    justify-content: center;
+  }
+
+  .gallery-item2 {
+    display: table-cell;
+
+    justify-content: center;
+  }
+
+  .cta-section {
+    flex-basis: 100% !important;
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .sec_contactos{
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
 
 }
 
 /*mobile*/
-@media only screen and (max-width: 767px)
-{
-    #barras{
-      display: flex;
-    }
-
-    #elemento{
-      display: block;
-      color: white;
+@media only screen and (max-width: 767px) {
+  .row {
+    display: table;
+    width: 100%;;
   }
 
-  .games_8{
+
+  .col {
+    display: table-cell;
+    vertical-align: top;
+  }
+
+
+  .col-6 {
+    flex-basis: 100% !important;
+    width: 100%;
+    margin-bottom: 20%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .col-4{
+    flex-basis: 100% !important;
+    width: 100%;
+    margin-bottom: 20%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .col-3{
+    flex-basis: 100% !important;
+    width: 100%;
+    margin-bottom: 20%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #burger {
+    display: flex;
+  }
+
+  #none_burger {
+    display: grid;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+  }
+
+  .games_8 {
     display: grid;
     justify-content: center;
     width: 100%;
@@ -665,19 +978,89 @@ footer {
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .col{
+
+  .col {
     justify-content: center;
   }
-  .gallery-item{
+
+  .gallery-item {
     display: table-cell;
-    
+    padding-bottom: 2%;
     justify-content: center;
   }
-  .gallery-item2{
+
+  .gallery-item2 {
     display: table-cell;
-    
+
     justify-content: center;
   }
+
+  .cta-section {
+    flex-basis: 100% !important;
+    display: grid;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .sec_contactos{
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .categorias_8{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .container_categorias{
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .box_button_categorias {
+    display: inline-block;
+    /* Para que o botão fique ao lado do outro */
+    background-color: rgba(255, 0, 0, 0.692);
+    /*para o botão, convem ser chamativa */
+    color: white;
+    /* Texto branco */
+    width: 100%;
+    /* Largura do botão */
+    /* height: 30%; /* Altura do botão */
+    padding: 35% 50%;
+    /* Espaçamento interno */
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+    font-size: 18px;
+    /* Tamanho da fonte */
+    border-radius: 5px;
+    /* Bordas arredondadas */
+    transition: background-color 0.3s;
+    /* Efeito de transição */
+    text-align: center;
+    /* Alinhamento do texto */
+    border: 1px solid #000;
+    /* Borda preta */
+    cursor: pointer;
+    /* Cursor ao passar o rato */
+    outline: none;
+    /* Remove a borda ao clicar */
+  }
+
+ 
 }
-
-
