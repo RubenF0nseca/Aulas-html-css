@@ -628,3 +628,56 @@ footer {
 .paginaproduto_footer{
   margin-bottom: 10%;
 }
+
+/* tornar o site adaptativo*/
+
+.menu_mobile{
+  display: none;
+}
+#barras{
+  display: none;
+}
+
+/*tablet*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/*mobile*/
+@media only screen and (max-width: 767px)
+{
+    #barras{
+      display: flex;
+    }
+
+    #elemento{
+      display: block;
+      color: white;
+  }
+
+  .games_8{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .col{
+    justify-content: center;
+  }
+  .gallery-item{
+    display: table-cell;
+    
+    justify-content: center;
+  }
+  .gallery-item2{
+    display: table-cell;
+    
+    justify-content: center;
+  }
+}
+
+

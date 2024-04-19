@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="estilo.css" />
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Game on</title>
 </head>
 
 <body>
+
     <header class="header">
         <div class="container">
             <div class="branding">
@@ -18,14 +20,19 @@
                 </a>
             </div>
             <nav class="menu">
-                <ul>
-                    <li><a href="/index.html"><i class="fa-sharp fa-solid fa-house fa-sm"></i>Home</a></li>
-                    <li><a href="/sobre.html"><i class="fa-solid fa-gamepad fa-sm"></i>Sobre</a></li>
-                    <li><a href="/categorias.html"><i class="fa-solid fa-tags fa-sm"></i>Categorias</a></li>
-                    <li><a href="/Produtos.html"><i class="fa-brands fa-product-hunt fa-sm"></i>Produtos</a></li>
-                    <li><a href="#contactos"><i class="fa-solid fa-location-dot fa-sm"></i>Contactos</a></li>
-                    <li><a href="/login.html"><i class="fa-solid fa-user fa-sm"></i>Login</a></li>
-                </ul>
+                <div id="barras"><i class="fas fa-bars"></i></div>
+                <div class="menu_desktop">
+                <div id="elemento">
+                    <ul>
+                        <li><a href="/index.html"><i class="fa-sharp fa-solid fa-house fa-sm"></i>Home</a></li>
+                        <li><a href="/sobre.html"><i class="fa-solid fa-gamepad fa-sm"></i>Sobre</a></li>
+                        <li><a href="/categorias.html"><i class="fa-solid fa-tags fa-sm"></i>Categorias</a></li>
+                        <li><a href="/Produtos.html"><i class="fa-brands fa-product-hunt fa-sm"></i>Produtos</a></li>
+                        <li><a href="#contactos"><i class="fa-solid fa-location-dot fa-sm"></i>Contactos</a></li>
+                        <li><a href="/login.html"><i class="fa-solid fa-user fa-sm"></i>Login</a></li>
+                    </ul>
+                </div>
+                </div>
             </nav>  
         </div>
     </header>
@@ -114,35 +121,41 @@
                     </div>
                 </div>
                 <div class="col col-3">
-                    <a href="img_jogos/jogo2_pc.png" class="venobox" data-gall="gallery-item">
-                        <img src="img_jogos/jogo2_pc.png" width="250vw" height="250vw" alt="" class="img-fluid" />
-                    </a>
-                    <h4>Jogo 3</h4>
-                    <p>100€</p>
-                    <a href="./ficha_produto.html" class="box_button_vermais">Ver mais</a>
-                    <div class="espaco_col3">
-                        <a href="img_jogos/jogo4_ps5.png" class="venobox" data-gall="gallery-item">
-                            <img src="img_jogos/jogo4_ps5.png" width="250vw" height="250vw" alt="" class="img-fluid" />
+                    <div class="gallery-item">
+                        <a href="img_jogos/game1.png" class="venobox" data-gall="gallery-item">
+                            <img src="img_jogos/game1.png" width="250vw" height="250vw" alt="" class="img-fluid" />
                         </a>
-                        <h4>jogo 7</h4>
-                        <p>10€</p>
+                        <h4>Jogo 1</h4>
+                        <p>69,99€</p>
                         <a href="./ficha_produto.html" class="box_button_vermais">Ver mais</a>
+                        <div class="espaco_col3">
+                            <a href="img_jogos/jogo1_nint.png" class="venobox" data-gall="gallery-item">
+                                <img src="img_jogos/jogo1_nint.png" width="250vw" height="250vw" alt=""
+                                    class="img-fluid" />
+                            </a>
+                            <h4>Jogo 5</h4>
+                            <p>79€</p>
+                            <a href="./ficha_produto.html" class="box_button_vermais">Ver mais</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col col-3">
-                    <a href="img_jogos/jogo3_ps5.png" class="venobox" data-gall="gallery-item2">
-                        <img src="img_jogos/jogo3_ps5.png" width="250vw" height="250vw" alt="" class="img-fluid" />
-                    </a>
-                    <h4>jogo 4</h4>
-                    <p>40€</p>
-                    <a href="./ficha_produto.html" class="box_button_vermais">Ver mais</a>
-                    <div class="espaco_col3">
-                        <a href="img_jogos/jogo3_pc.png" class="venobox" data-gall="gallery-item2">
-                            <img src="img_jogos/jogo3_pc.png" width="250vw" height="250vw" alt="" class="img-fluid" />
+                    <div class="gallery-item2">
+                        <a href="img_jogos/game1.png" class="venobox" data-gall="gallery-item">
+                            <img src="img_jogos/game1.png" width="250vw" height="250vw" alt="" class="img-fluid" />
                         </a>
-                        <h4>Jogo 8</h4>
-                        <p>60€</p>
+                        <h4>Jogo 1</h4>
+                        <p>69,99€</p>
                         <a href="./ficha_produto.html" class="box_button_vermais">Ver mais</a>
+                        <div class="espaco_col3">
+                            <a href="img_jogos/jogo1_nint.png" class="venobox" data-gall="gallery-item">
+                                <img src="img_jogos/jogo1_nint.png" width="250vw" height="250vw" alt=""
+                                    class="img-fluid" />
+                            </a>
+                            <h4>Jogo 5</h4>
+                            <p>79€</p>
+                            <a href="./ficha_produto.html" class="box_button_vermais">Ver mais</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -190,6 +203,13 @@
             <i class="fa-brands fa-linkedin">&#160&#160&#160   </i>   
             <p>Made by: Ruben Fonseca - 04/24</p>
     </footer>
+    <script>
+        $(document).ready(function(){
+            $("#barras").click(function(){
+                $("#elemento").toggle();
+            });
+        });
+    </script>
 </body>
 
 </html>
